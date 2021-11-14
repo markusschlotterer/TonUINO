@@ -830,6 +830,8 @@ void setup() {
     loadSettingsFromFlash();
   }
 
+  // Set active modifier at startup
+  activeModifier = new ToddlerMode();
 
   // Start Shortcut "at Startup" - e.g. Welcome Sound
   playShortCut(3);
