@@ -368,10 +368,10 @@ class Locked: public Modifier {
 
 class ToddlerMode: public Modifier {
   public:
-    virtual bool handlePause()     {
-      Serial.println(F("== ToddlerMode::handlePause() -> LOCKED!"));
-      return true;
-    }
+//    virtual bool handlePause()     {
+//      Serial.println(F("== ToddlerMode::handlePause() -> LOCKED!"));
+//      return true;
+//    }
     virtual bool handleNextButton()       {
       Serial.println(F("== ToddlerMode::handleNextButton() -> LOCKED!"));
       return true;
